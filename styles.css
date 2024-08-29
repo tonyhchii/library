@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+button {
+    padding: .5rem;
+}
+
+.card {
+    padding: .5rem;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    flex-flow: wrap;
+}
+
+.buttons {
+    display: flex;
+    gap: .7rem;
+}
