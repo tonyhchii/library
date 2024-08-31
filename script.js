@@ -2,7 +2,7 @@ const myLibrary = [];
 
 
 
-function Book(title, author, pages) {
+/* function Book(title, author, pages) {
     this.title = title;
     this.author = author;
     this.pages = pages
@@ -13,6 +13,19 @@ function Book(title, author, pages) {
 
 Book.prototype.readBook = function() {
     this.read = !this.read;
+} */
+
+class Book {
+    constructor(title, author, pages) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.read = false;
+    }
+
+    readBook() {
+        this.read = !this.read;
+    }
 }
 
 myLibrary.push(new Book('Tony', 'Tony', 111));
